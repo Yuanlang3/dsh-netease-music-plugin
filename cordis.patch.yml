@@ -1,0 +1,9 @@
+# One package: the dual-face Netease Cloud Music player. The patch layer below
+# inserts the single plugin row that mounts the HOST half (HTTP routes under
+# /api/netease that proxy Netease Cloud Music API calls). The browser half is
+# discovered by the modules node scanning `dsh.client` packages and served from
+# this package's lib/client.js.
+
+- insert:
+    - id: netease-music
+      name: 'dsh-netease-music'
