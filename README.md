@@ -5,7 +5,7 @@
 ## 安装
 
 ```bash
-dsh plugin --profile web add file:D:/path/to/netease-music-plugin
+dsh plugin --profile web add https://github.com/Yuanlang3/dsh-netease-music-plugin
 ```
 
 安装后重启 DSH（`dsh web`）即可生效。侧边栏底部「设置」上方会出现红色 `♪` 图标。
